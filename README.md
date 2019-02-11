@@ -25,15 +25,18 @@ Step 4: Write a choose_first() function that uses the random module to randomly 
 Step 5: Write a space_check() function that returns a boolean indicating whether a space on the board is freely available.
 
 Step 6: Write a full_board_check() function.
+
         1. check if the board is full.
         2. return a boolean value. True if full, False otherwise.
         
 Step 7: Write a player_choice() function.
+
         1. ask for a player's next position (as a number 1-9).
         2. then use the function from step 5 to check if it's a free position. 
         3. If it is, then return the position for later use.
         
 Step 8: Write a replay() function.
+
         1. ask the player if they want to play again.
         2. return a boolean True if they do want to play again.
         
